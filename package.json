@@ -1,0 +1,25 @@
+{
+  "name": "guo-init",
+  "version": "0.1.1",
+  "description": "学习使用全局安装包和建立自己的命令行命令",
+  "main": "bin/guo-init.js",
+  "preferGlobal":true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "npm",
+    "cli"
+  ],
+  "bin": {
+    "guo-init": "bin/guo-init.js"
+  },
+  
+  "author": "goodwin <18408271384@sina.cn> (https://www.gmkgmk.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0"
+  }
+}
